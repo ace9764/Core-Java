@@ -24,6 +24,15 @@ public class ThreadLocalDemo
 
         ThreadLocal<String> threadLocalString = new ThreadLocal<String>();
 
+        ThreadLocal<String> threadLocalString2 = new ThreadLocal<String>();
+
+        if(threadLocalString2.get() == null){
+            threadLocalString2.set("threadLocalString2");
+        }
+
+        System.out.println("Lazy Loading: " + threadLocalString2.get());
+
+
         ThreadLocal<Object> threadLocalObject = new ThreadLocal<Object>();
 
         ThreadLocalDemo threadLocalDemo1 = new ThreadLocalDemo();

@@ -30,7 +30,7 @@ public class Animal  {
 //
 //        bird.noOfLegs = 2;
 //
-//        FileOutputStream fileOutputStream = new FileOutputStream("Bird2.ser");
+//        FileOutputStream fileOutputStream = new FileOutputStream("Bird.ser");
 //
 //        ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
 //
@@ -40,7 +40,7 @@ public class Animal  {
 
 
         try {
-            FileInputStream fileInputStream = new FileInputStream("Bird2.ser");
+            FileInputStream fileInputStream = new FileInputStream("Bird.ser");
 
             ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
 
@@ -60,7 +60,8 @@ public class Animal  {
 
 class Bird extends Animal implements Serializable {
 
-    public static final Long SerialVersionUID = 123456789012314L;
+    private static final Long serialVersionUID = 123456789012314L;
+
     public String color;
 
     public String dummy;
@@ -90,15 +91,15 @@ class Bird extends Animal implements Serializable {
         this.color = color;
     }
 
-//    @Override
-//    public String toString() {
-//        return this.noOfLegs + " "+ this.color;
-//    }
-
     @Override
     public String toString() {
-        return  " "+ this.color;
+        return this.noOfLegs + " "+ this.color;
     }
+
+//    @Override
+//    public String toString() {
+//        return  " "+ this.color;
+//    }
 }
 
 
