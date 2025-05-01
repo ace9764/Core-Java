@@ -5,11 +5,13 @@ public class StaticSynchronizedDemo {
 
     static int counter = 1;
 
-    public synchronized static void eat()
+    public  static void eat()
     {
-        for(int i=0; i<10; i++) {
-            System.out.println("This is my " + counter + "th meal");
-            counter++;
+        synchronized(StaticSynchronizedDemo.class) {
+            for (int i = 0; i < 10; i++) {
+                System.out.println("This is my " + counter + "th meal");
+                counter++;
+            }
         }
     }
 

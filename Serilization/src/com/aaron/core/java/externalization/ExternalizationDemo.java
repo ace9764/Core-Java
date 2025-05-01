@@ -3,6 +3,7 @@ package com.aaron.core.java.externalization;
 import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
 
 import java.io.*;
+import java.util.*;
 
 public class ExternalizationDemo implements Externalizable {
 
@@ -58,7 +59,7 @@ public class ExternalizationDemo implements Externalizable {
 
         System.out.println("Before Serialize");
 
-        objectOutputStream.writeObject(externalizationDemo);
+        objectOutputStream.writeObject (externalizationDemo);
 
         System.out.println("After Serialize");
 
@@ -78,6 +79,11 @@ public class ExternalizationDemo implements Externalizable {
 
 
         System.out.println(externalizationDemo1);
+
+
+        List<Object> listObj = new ArrayList<>();
+
+        listObj.contains("");
 
     }
 }

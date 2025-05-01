@@ -19,6 +19,8 @@ public class MultipleCatchBlocksDemo {
 
             if(e.getClass().isInstance(new NullPointerException()) ){
                 System.out.println("File name should not be null");
+
+                e.printStackTrace();
             }
 
             if(e.getClass().isInstance(new FileNotFoundException()) ) {

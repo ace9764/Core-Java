@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AbstractAndInterface/AbstractAndInterface.iml" filepath="$PROJECT_DIR$/AbstractAndInterface/AbstractAndInterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArrayListDemo/ArrayListDemo.iml" filepath="$PROJECT_DIR$/ArrayListDemo/ArrayListDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/Collections.iml" filepath="$PROJECT_DIR$/Collections/Collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CollectionsFramework/CollectionsFramework.iml" filepath="$PROJECT_DIR$/CollectionsFramework/CollectionsFramework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Constuctor/Constuctor.iml" filepath="$PROJECT_DIR$/Constuctor/Constuctor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Core-Java.iml" filepath="$PROJECT_DIR$/.idea/Core-Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CustomerDemo/CustomerDemo.iml" filepath="$PROJECT_DIR$/CustomerDemo/CustomerDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataStructures/DataStructures.iml" filepath="$PROJECT_DIR$/DataStructures/DataStructures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EchoBackMocking/EchoBackMocking.iml" filepath="$PROJECT_DIR$/EchoBackMocking/EchoBackMocking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExceptionHandling/ExceptionHandling.iml" filepath="$PROJECT_DIR$/ExceptionHandling/ExceptionHandling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Generics/Generics.iml" filepath="$PROJECT_DIR$/Generics/Generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InnerClass/InnerClass.iml" filepath="$PROJECT_DIR$/InnerClass/InnerClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lamda/Lamda.iml" filepath="$PROJECT_DIR$/Lamda/Lamda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MockTesting/MockTesting.iml" filepath="$PROJECT_DIR$/MockTesting/MockTesting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MultiThread/MultiThread.iml" filepath="$PROJECT_DIR$/MultiThread/MultiThread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MultiThreadInfLearn/MultiThreadInfLearn.iml" filepath="$PROJECT_DIR$/MultiThreadInfLearn/MultiThreadInfLearn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MultiThreading/MultiThreading.iml" filepath="$PROJECT_DIR$/MultiThreading/MultiThreading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PaymentMethodMocking/PaymentMethodMocking.iml" filepath="$PROJECT_DIR$/PaymentMethodMocking/PaymentMethodMocking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Polymorphism/Polymorphism.iml" filepath="$PROJECT_DIR$/Polymorphism/Polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Serilization/Serilization.iml" filepath="$PROJECT_DIR$/Serilization/Serilization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/String/String.iml" filepath="$PROJECT_DIR$/String/String.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tokenizer/Tokenizer.iml" filepath="$PROJECT_DIR$/Tokenizer/Tokenizer.iml" />
+    </modules>
+  </component>
+</project>

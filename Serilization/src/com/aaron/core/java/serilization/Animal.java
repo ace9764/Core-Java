@@ -2,8 +2,21 @@ package com.aaron.core.java.serilization;
 
 
 import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Animal  {
+
+    public ArrayList<Dog> getDogList() {
+        return dogList;
+    }
+
+    public void setDogList(ArrayList<Dog> dogList) {
+        this.dogList = dogList;
+    }
+
+    ArrayList<Dog> dogList = new ArrayList<>();
+
 
 //    public Animal(){
 //        this  (5);

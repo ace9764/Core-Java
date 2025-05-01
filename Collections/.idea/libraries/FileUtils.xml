@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="FileUtils">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/commons-io-2.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
